@@ -7,55 +7,28 @@ const ProductsSection = () => {
       name: 'SKIP Basics',
       images: {
         'Pink': [
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600'
+          'https://images.pexels.com/photos/33055458/pexels-photo-33055458.jpeg',
+          'https://images.pexels.com/photos/33055459/pexels-photo-33055459.jpeg',
+          'https://images.pexels.com/photos/33055456/pexels-photo-33055456.jpeg',
+          'https://images.pexels.com/photos/33055336/pexels-photo-33055336.jpeg'
         ],
         'Gray': [
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600'
+          'https://images.pexels.com/photos/33055488/pexels-photo-33055488.jpeg',
+          'https://images.pexels.com/photos/33055328/pexels-photo-33055328.jpeg',
+          'https://images.pexels.com/photos/33055496/pexels-photo-33055496.jpeg'
         ],
         'Black': [
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600'
+          'https://images.pexels.com/photos/33055520/pexels-photo-33055520.jpeg',
+          'https://images.pexels.com/photos/33055337/pexels-photo-33055337.jpeg',
+          'https://images.pexels.com/photos/33055457/pexels-photo-33055457.jpeg',
+          'https://images.pexels.com/photos/33055519/pexels-photo-33055519.jpeg'
         ],
         'White': [
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600'
+         
         ]
       },
-      description: 'Experience ultimate comfort with our premium SKIP Basics collection. Crafted from the finest materials, this versatile piece offers a perfect blend of style and comfort. Ideal for casual outings or relaxed days at home.',
+description: `Simple Style That Stands Out
+A practical top with soft, comfortable fabric and a casual design that fits any look. One of those everyday essentials you’ll always reach for!`,
       colors: ['Pink', 'Gray', 'Black', 'White'],
       sizes: ['S', 'M', 'L', 'XL'],
       
@@ -65,71 +38,26 @@ const ProductsSection = () => {
       name: 'SKIP Pants',
       images: {
         'Black': [
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600'
+          'https://images.pexels.com/photos/33055601/pexels-photo-33055601.jpeg',
+          'https://images.pexels.com/photos/33055598/pexels-photo-33055598.jpeg',
+          'https://images.pexels.com/photos/33055597/pexels-photo-33055597.jpeg',
+          'https://images.pexels.com/photos/33055600/pexels-photo-33055600.jpeg'
         ],
         'Blue': [
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600'
+          'https://images.pexels.com/photos/33055335/pexels-photo-33055335.jpeg',
+          'https://images.pexels.com/photos/33055620/pexels-photo-33055620.jpeg',
+          'https://images.pexels.com/photos/33055619/pexels-photo-33055619.jpeg',
+          'https://images.pexels.com/photos/33055618/pexels-photo-33055618.jpeg'
         ],
         'Olive': [
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325574/pexels-photo-5325574.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600',
-          'https://images.pexels.com/photos/5325578/pexels-photo-5325578.jpeg?auto=compress&cs=tinysrgb&w=600'
+          'https://images.pexels.com/photos/33055634/pexels-photo-33055634.jpeg',
+          'https://images.pexels.com/photos/33055635/pexels-photo-33055635.jpeg',
+          'https://images.pexels.com/photos/33055636/pexels-photo-33055636.jpeg',
+          'https://images.pexels.com/photos/33055633/pexels-photo-33055633.jpeg'
         ]
       },
-      description: 'Luxury meets comfort in our signature SKIP Pants. Made with premium cotton blend fabric, these pants provide exceptional softness and durability. Perfect for workouts, lounging, or casual everyday wear.',
-      colors: ['Black', 'Blue', 'Olive'],
+      description: 'These wide-leg pants bring chill vibes with serious style. High waist, soft flow, and made to flex with your vibe—whether you’re out or just vibing.',
+      colors: ['Blue', 'Olive', 'Black'],
       sizes: ['S', 'M', 'L', 'XL'],
       price: '550EGP'
     }

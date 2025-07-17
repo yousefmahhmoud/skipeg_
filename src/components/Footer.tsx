@@ -1,5 +1,6 @@
 import React from 'react';
-import { Facebook, Instagram, MessageCircle, Heart, Music } from 'lucide-react';
+import { Facebook, Instagram, MessageCircle, Heart } from 'lucide-react';
+import { SiTiktok } from 'react-icons/si';
 
 const Footer = () => {
   return (
@@ -26,7 +27,7 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/16f346dtK2/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-700 rounded-full hover:bg-orange-500 transition-colors duration-200"
@@ -34,7 +35,7 @@ const Footer = () => {
                 <Facebook size={20} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/skipeg_?igsh=Nzg2aDloY21rM203"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-700 rounded-full hover:bg-orange-500 transition-colors duration-200"
@@ -42,15 +43,15 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://www.tiktok.com"
+                href="https://www.tiktok.com/@skipeg__?_t=ZS-8y6w4VC8BY0&_r=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-700 rounded-full hover:bg-orange-500 transition-colors duration-200"
               >
-                <Music size={20} />
+                <SiTiktok size={20} />
               </a>
               <a
-                href="https://whatsapp.com"
+                href="https://wa.me/201143813707"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-700 rounded-full hover:bg-orange-500 transition-colors duration-200"

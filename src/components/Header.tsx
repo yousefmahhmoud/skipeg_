@@ -1,5 +1,7 @@
 import React from 'react';
-import { Facebook, Instagram, MessageCircle, Music } from 'lucide-react';
+import { Facebook, Instagram, MessageCircle } from 'lucide-react';
+import { SiTiktok } from 'react-icons/si';
+
 
 const Header = () => {
   return (
@@ -18,7 +20,7 @@ const Header = () => {
           
           <div className="flex items-center space-x-4">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/share/16f346dtK2/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-600 hover:text-orange-500 transition-colors duration-200"
@@ -26,7 +28,7 @@ const Header = () => {
               <Facebook size={20} />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/skipeg_?igsh=Nzg2aDloY21rM203"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-600 hover:text-orange-500 transition-colors duration-200"
@@ -34,15 +36,15 @@ const Header = () => {
               <Instagram size={20} />
             </a>
             <a
-              href="https://www.tiktok.com"
+              href="https://www.tiktok.com/@skipeg__?_t=ZS-8y6w4VC8BY0&_r=1"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-600 hover:text-orange-500 transition-colors duration-200"
             >
-              <Music size={20} />
+              <SiTiktok size={20} />
             </a>
             <a
-              href="https://whatsapp.com"
+              href="https://wa.me/201143813707"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-600 hover:text-orange-500 transition-colors duration-200"

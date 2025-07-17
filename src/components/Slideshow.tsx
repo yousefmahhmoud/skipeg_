@@ -7,19 +7,62 @@ const Slideshow = () => {
   const slides = [
     {
       id: 1,
-      image: 'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://images.pexels.com/photos/33055330/pexels-photo-33055330.jpeg',
       title: 'Premium SKIP Basics Collection',
       subtitle: 'Think globally, wear locally'
     },
     {
       id: 2,
-      image: 'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://images.pexels.com/photos/33055329/pexels-photo-33055329.jpeg',
       title: 'Comfortable SKIP Pants',
       subtitle: 'Innovation meets comfort'
     },
     {
       id: 3,
-      image: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://images.pexels.com/photos/33055336/pexels-photo-33055336.jpeg',
+      title: 'SKIP Style',
+      subtitle: 'Quality and innovation in every piece'
+    }
+    ,
+    {
+      id: 4,
+      image: 'https://images.pexels.com/photos/33055335/pexels-photo-33055335.jpeg',
+      title: 'SKIP Style',
+      subtitle: 'Quality and innovation in every piece'
+    },
+    {
+      id: 5,
+      image: 'https://images.pexels.com/photos/33055328/pexels-photo-33055328.jpeg',
+      title: 'SKIP Style',
+      subtitle: 'Quality and innovation in every piece'
+    },
+    {
+      id: 6,
+      image: 'https://images.pexels.com/photos/33055333/pexels-photo-33055333.jpeg',
+      title: 'SKIP Style',
+      subtitle: 'Quality and innovation in every piece'
+    },
+    {
+      id: 7,
+      image: 'https://images.pexels.com/photos/33055331/pexels-photo-33055331.jpeg',
+      title: 'SKIP Style',
+      subtitle: 'Quality and innovation in every piece'
+    },
+    {
+      id: 8,
+      image: 'https://images.pexels.com/photos/33055337/pexels-photo-33055337.jpeg',
+      title: 'SKIP Style',
+      subtitle: 'Quality and innovation in every piece'
+    },
+    {
+      id: 9,
+      image: 'https://images.pexels.com/photos/33055332/pexels-photo-33055332.jpeg',
+      title: 'SKIP Style',
+      subtitle: 'Quality and innovation in every piece'
+    }, 
+    {
+      id: 10,
+      image: 'https://images.pexels.com/photos/33055334/pexels-photo-33055334.jpeg',
       title: 'SKIP Style',
       subtitle: 'Quality and innovation in every piece'
     }

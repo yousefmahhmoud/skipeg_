@@ -77,7 +77,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
                   alt={`${name} - ${selectedColor}`}
                   className="w-full h-64 md:h-72 object-cover transition-transform duration-300 hover:scale-105"
                   onLoad={handleImageLoad}
-                  style={{ minHeight: '256px' }}
+                  style={{ minHeight: '500px' }}
                 />
               </div>
               
