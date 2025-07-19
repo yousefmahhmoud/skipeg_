@@ -121,7 +121,7 @@ const PhotoModal: React.FC<PhotoModalProps> = ({
         {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 p-3 bg-white bg-opacity-10 hover:bg-opacity-20 backdrop-blur-sm rounded-full transition-all duration-200 z-10"
+          className="absolute top-4 left-4 p-3 bg-white bg-opacity-10 hover:bg-opacity-20 backdrop-blur-sm rounded-full transition-all duration-200 z-10"
           aria-label="Close photo viewer"
         >
           <X className="text-white" size={24} />
