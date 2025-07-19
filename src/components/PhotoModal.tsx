@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { X, ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, ZoomIn, ZoomOut, Maximize2 } from 'lucide-react';
 
 interface PhotoModalProps {
   isOpen: boolean;
@@ -113,32 +113,47 @@ const PhotoModal: React.FC<PhotoModalProps> = ({
   if (!isOpen) return null;
 
   return (
-    <div 
-      className="fixed inset-0 bg-black bg-opacity-95 flex items-center justify-center z-50"
-      onClick={(e) => e.target === e.currentTarget && onClose()}
-    >
+    <div className="fixed inset-0 bg-black bg-opacity-95 flex items-center justify-center z-50">
+      {/* Backdrop overlay for click-to-close */}
+      <div 
+        className="absolute inset-0 cursor-pointer"
+        onClick={onClose}
+        aria-label="Close photo viewer by clicking backdrop"
+      />
+      
       <div className="relative w-full h-full flex items-center justify-center p-4">
         {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute top-4 left-4 p-3 bg-white bg-opacity-10 hover:bg-opacity-20 backdrop-blur-sm rounded-full transition-all duration-200 z-10"
+          className="absolute top-4 right-4 p-3 bg-black bg-opacity-60 hover:bg-opacity-80 backdrop-blur-sm rounded-full transition-all duration-200 z-20 group focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
           aria-label="Close photo viewer"
+          title="Close (Esc)"
+          tabIndex={0}
         >
-          <X className="text-white" size={24} />
+          <X 
+            className="text-white group-hover:scale-110 transition-transform duration-200" 
+            size={24} 
+            strokeWidth={2.5}
+          />
         </button>
 
         {/* Image counter */}
-        <div className="absolute top-4 left-4 bg-black bg-opacity-50 text-white px-4 py-2 rounded-full text-sm backdrop-blur-sm z-10">
+        <div className="absolute top-4 left-4 bg-black bg-opacity-60 text-white px-4 py-2 rounded-full text-sm backdrop-blur-sm z-10 border border-white border-opacity-20">
           {currentIndex + 1} / {images.length}
         </div>
 
         {/* Zoom toggle */}
         <button
           onClick={() => setIsZoomed(!isZoomed)}
-          className="absolute top-4 left-1/2 -translate-x-1/2 p-3 bg-white bg-opacity-10 hover:bg-opacity-20 backdrop-blur-sm rounded-full transition-all duration-200 z-10"
+          className="absolute top-4 left-1/2 -translate-x-1/2 p-3 bg-black bg-opacity-60 hover:bg-opacity-80 backdrop-blur-sm rounded-full transition-all duration-200 z-10 group focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
           aria-label={isZoomed ? "Zoom out" : "Zoom in"}
+          title={isZoomed ? "Zoom out (Space)" : "Zoom in (Space)"}
+          tabIndex={0}
         >
-          {isZoomed ? <ZoomOut className="text-white" size={20} /> : <ZoomIn className="text-white" size={20} />}
+          {isZoomed ? 
+            <ZoomOut className="text-white group-hover:scale-110 transition-transform duration-200" size={20} /> : 
+            <ZoomIn className="text-white group-hover:scale-110 transition-transform duration-200" size={20} />
+          }
         </button>
 
         {/* Navigation buttons */}
@@ -146,25 +161,29 @@ const PhotoModal: React.FC<PhotoModalProps> = ({
           <>
             <button
               onClick={prevImage}
-              className="absolute left-4 top-1/2 -translate-y-1/2 p-4 bg-white bg-opacity-10 hover:bg-opacity-20 backdrop-blur-sm rounded-full transition-all duration-200 z-10"
+              className="absolute left-4 top-1/2 -translate-y-1/2 p-4 bg-black bg-opacity-60 hover:bg-opacity-80 backdrop-blur-sm rounded-full transition-all duration-200 z-10 group focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
               aria-label="Previous image"
+              title="Previous image (←)"
+              tabIndex={0}
             >
-              <ChevronLeft className="text-white" size={28} />
+              <ChevronLeft className="text-white group-hover:scale-110 transition-transform duration-200" size={28} />
             </button>
             
             <button
               onClick={nextImage}
-              className="absolute right-4 top-1/2 -translate-y-1/2 p-4 bg-white bg-opacity-10 hover:bg-opacity-20 backdrop-blur-sm rounded-full transition-all duration-200 z-10"
+              className="absolute right-4 top-1/2 -translate-y-1/2 p-4 bg-black bg-opacity-60 hover:bg-opacity-80 backdrop-blur-sm rounded-full transition-all duration-200 z-10 group focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
               aria-label="Next image"
+              title="Next image (→)"
+              tabIndex={0}
             >
-              <ChevronRight className="text-white" size={28} />
+              <ChevronRight className="text-white group-hover:scale-110 transition-transform duration-200" size={28} />
             </button>
           </>
         )}
 
         {/* Main image */}
         <div 
-          className="relative max-w-full max-h-full flex items-center justify-center"
+          className="relative max-w-full max-h-full flex items-center justify-center z-10"
           onTouchStart={onTouchStart}
           onTouchMove={onTouchMove}
           onTouchEnd={onTouchEnd}
@@ -211,10 +230,24 @@ const PhotoModal: React.FC<PhotoModalProps> = ({
         )}
 
         {/* Product info */}
-        <div className="absolute bottom-4 right-4 bg-black bg-opacity-50 text-white px-4 py-2 rounded-lg backdrop-blur-sm">
+        <div className="absolute bottom-4 right-4 bg-black bg-opacity-60 text-white px-4 py-2 rounded-lg backdrop-blur-sm border border-white border-opacity-20 z-10">
           <p className="text-sm font-medium">{productName}</p>
           <p className="text-xs opacity-75">{selectedColor}</p>
         </div>
+        
+        {/* Mobile-specific close button for better touch accessibility */}
+        <button
+          onClick={onClose}
+          className="md:hidden absolute bottom-6 left-1/2 -translate-x-1/2 px-6 py-3 bg-black bg-opacity-80 hover:bg-opacity-90 backdrop-blur-sm rounded-full transition-all duration-200 z-20 group focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
+          aria-label="Close photo viewer"
+          title="Close"
+          tabIndex={0}
+        >
+          <div className="flex items-center space-x-2">
+            <X className="text-white group-hover:scale-110 transition-transform duration-200" size={20} />
+            <span className="text-white text-sm font-medium">Close</span>
+          </div>
+        </button>
       </div>
     </div>
   );
