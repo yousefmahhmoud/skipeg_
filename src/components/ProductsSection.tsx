@@ -15,7 +15,7 @@ const ProductsSection = () => {
         'Gray': [
           'https://images.pexels.com/photos/33055488/pexels-photo-33055488.jpeg',
           'https://images.pexels.com/photos/33055328/pexels-photo-33055328.jpeg',
-          'https://images.pexels.com/photos/33055496/pexels-photo-33055496.jpeg'
+          'https://images.pexels.com/photos/33064878/pexels-photo-33064878.jpeg'
         ],
         'Black': [
           'https://images.pexels.com/photos/33055520/pexels-photo-33055520.jpeg',
