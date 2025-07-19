@@ -131,7 +131,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
               {/* Maximize button */}
               <button
                 onClick={handleMaximizeClick}
-                className="absolute top-3 right-3 p-2 bg-black bg-opacity-40 hover:bg-opacity-60 backdrop-blur-sm rounded-full transition-all duration-200 opacity-0 group-hover:opacity-100 focus:opacity-100"
+                className="absolute top-3 left-3 p-2 bg-black bg-opacity-40 hover:bg-opacity-60 backdrop-blur-sm rounded-full transition-all duration-200 opacity-0 group-hover:opacity-100 focus:opacity-100"
                 aria-label="View full size image"
               >
                 <Maximize2 className="text-white" size={18} />
