@@ -44,7 +44,7 @@ const Header = () => {
               <SiTiktok size={20} />
             </a>
             <a
-              href="https://wa.me/201143813707"
+              href="https://wa.me/201108151772"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-600 hover:text-orange-500 transition-colors duration-200"
