@@ -227,7 +227,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
           </div>
           
           <button 
-  onClick={() => (window.location.href = "https://wa.me/201143813707")}
+  onClick={() => (window.location.href = "https://wa.me/201108151772")}
   className="w-full bg-orange-500 text-white py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors duration-200"
 >
   Contact us to place your order.
