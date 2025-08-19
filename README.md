@@ -1,8 +1,7 @@
 # SKIP - Premium Casual Wear Website
 
 <div align="center">
-  <img src="https://images.pexels.com/photos/33055330/pexels-photo-33055330.jpeg" alt="SKIP Premium Collection" width="600" style="border-radius: 10px;">
-  
+
   **Think Globally, Wear Locally**
   
   [![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
@@ -307,30 +306,13 @@ We would like to thank the following projects and contributors:
 - Open source contributors who make projects like this possible
 - Beta testers and early users who provided valuable feedback
 
-## 📞 Contact Information
 
-We'd love to hear from you! Get in touch through any of the following channels:
-
-### For Users & Customers
-- **WhatsApp**: [+20 110 815 1772](https://wa.me/201108151772)
-- **Instagram**: [@skipeg_](https://www.instagram.com/skipeg_?igsh=Nzg2aDloY21rM203)
-- **Facebook**: [SKIP Official](https://www.facebook.com/share/16f346dtK2/?mibextid=wwXIfr)
-- **TikTok**: [@skipeg__](https://www.tiktok.com/@skipeg__?_t=ZS-8y6w4VC8BY0&_r=1)
-
-### For Developers & Contributors
-- **GitHub Issues**: [Report bugs or request features](https://github.com/your-username/skip-premium-wear/issues)
-- **GitHub Discussions**: [Community discussions and Q&A](https://github.com/your-username/skip-premium-wear/discussions)
-- **Email**: [dev@skip-wear.com](mailto:dev@skip-wear.com) (for technical inquiries)
-
-### Business Inquiries
-- **Email**: [business@skip-wear.com](mailto:business@skip-wear.com)
-- **LinkedIn**: [SKIP Premium Wear](https://linkedin.com/company/skip-wear)
 
 ---
 
 <div align="center">
   <p><strong>SKIP - Think Globally, Wear Locally</strong></p>
-  <p>Made with ❤️ for comfort and style</p>
+  
   
   ⭐ **Star this repository if you found it helpful!** ⭐
 </div>
